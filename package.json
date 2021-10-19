@@ -14,6 +14,9 @@
     "engines": {
         "node": ">=7.8.0"
     },
+    "publishConfig": {
+     "@r-kushwaha:registry": "https://npm.pkg.github.com"
+    },
     "scripts": {
         "compile-scripts": "tsc -p scripts",
         "not-needed": "node scripts/not-needed.js",
