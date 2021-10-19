@@ -2606,7 +2606,7 @@ export class Image {
      * Default CSS class name for canvas
      */
     static CSS_CANVAS: string;
-    static filters: IAllFilters;
+    static filters: any;
     static ATTRIBUTE_NAMES: string[];
 }
 
